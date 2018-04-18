@@ -17,11 +17,6 @@ export default {
   computed: mapGetters([
   ]),
   methods: mapActions([
-      'getLessonPlans',
-      'getComponents',
-      'getGoals',
-      'postGoal',
-      'saveFinalReflection',
   ]),
   mounted(){
   }
