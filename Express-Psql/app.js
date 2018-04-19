@@ -4,6 +4,7 @@ const morgan = require('morgan')
 const cors = require('cors')
 const app = module.exports = express()
 const port = parseInt(process.env.PORT || 3000)
+const queries = require("./queries");
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
